@@ -123,6 +123,8 @@ body {
     font-weight: 500;
     font-size: 18px;
     transition: 0.3s;
+    position: relative;
+    z-index: 2;
 
     img {
         margin-left: 6px;
@@ -213,5 +215,27 @@ h2 {
         font-size: 28px;
     }
 
+
+}
+
+@media(max-width:575.8px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .whitebtn {
+        width: 100%;
+        text-align: center;
+    }
 
 }

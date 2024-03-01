@@ -474,6 +474,23 @@
     }
 
     .location-title {
+        position: relative;
+        padding-left: 40px;
+        font-size: 17px;
+        line-height: 140%;
+        color: rgba(#343434, 0.85);
+        font-weight: 500;
+        margin-bottom: 20px;
+
+        img {
+            width: 25px;
+            position: absolute;
+            left: 0;
+            top: -3px;
+        }
+    }
+
+    .location-title {
         font-weight: 600;
         font-size: 17px;
         line-height: 140%;
@@ -610,6 +627,19 @@
 .kiesmobimg {
     display: none;
 }
+
+.continfo .location,
+.continfo .subtitle,
+.continfo ul {
+    padding-left: 40px;
+}
+
+.sdescrwrapper {
+    z-index: 2;
+    position: relative;
+}
+
+
 
 @media(max-width:1599.8px) {
     .herosection__descr a {
@@ -771,7 +801,7 @@
     .kies__bg1 {
         display: none;
     }
-    
+
     .kies__bg2 {
         display: none;
     }
@@ -811,4 +841,242 @@
     }
 
 
+}
+
+@media(max-width:767.8px) {
+
+    .ontdek__ill1 {
+        width: 100px;
+    }
+
+    .ontdek__ill2 {
+        width: 100px;
+        left: 40px;
+    }
+
+
+    .contactsection,
+    .featuressects,
+    .flexibel,
+    .herosection,
+    .ontdek {
+        padding: 80px 0;
+    }
+}
+
+@media(max-width:575.8px) {
+
+    .herosection__descr a {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .herosection__img {
+        margin-top: 28px;
+    }
+
+    .herosection__bg2 {
+        width: 80%;
+        bottom: 50px;
+    }
+
+    .herosection:after {
+        display: none;
+    }
+
+    .herosection__bg1 {
+        width: 60%;
+    }
+
+    .flexibel:after {
+        display: none;
+    }
+
+    .herosection:before {
+        width: 300px;
+        height: 300px;
+        bottom: 0;
+        left: -100px;
+    }
+
+    .flexibel__bg {
+        width: 200px;
+    }
+
+    .flexibel__box .imgwrap {
+        max-width: 65px;
+        flex: 0 0 65px;
+        margin-bottom: 20px;
+        height: 65px;
+
+        img {
+            max-width: 40px;
+        }
+    }
+
+    .flexibel__box .description {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-left: 0;
+    }
+
+    .flexibel__box {
+        margin-bottom: 15px;
+    }
+
+    .flexibel {
+        padding-bottom: 70px;
+    }
+
+    .flexibel:before {
+        width: 420px;
+        height: 420px;
+        right: -210px;
+        left: initial;
+        bottom: -100px;
+    }
+
+    .competentiekader {
+        padding-top: 67px;
+        padding-bottom: 40px;
+    }
+
+    .sdescrwrapper ul li {
+        font-size: 15px;
+    }
+
+    .competentiekader__bg {
+        display: none;
+    }
+
+    .kies {
+        padding-top: 50px;
+    }
+
+    .kies__list {
+        margin-top: 30px;
+    }
+
+    .kiesbox__img {
+        max-width: 60px;
+        flex: 0 0 60px;
+    }
+
+    .kiesbox .kiesbox__descr {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .kiesbox .kiesbox__img {
+        max-width: 60px;
+        flex: 0 0 60px;
+        height: 60px;
+
+        img {
+            max-width: 30px;
+        }
+    }
+
+    .kiesbox .kiesbox__descr .text,
+    .kiesbox .kiesbox__descr .linkbox {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .kiesbox .kiesbox__descr .text .title {
+        font-size: 25px;
+    }
+
+    .kiesbox .kiesbox__descr .text .price {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .kiesbox .kiesbox__descr .linkbox a {
+        border-radius: 30px 0;
+    }
+
+    .kiesbox.active .kiesbox__label {
+        font-size: 15px;
+        top: -14px;
+    }
+
+    .kiesbox {
+        padding: 25px;
+    }
+
+    .kiesmobimg {
+        margin-top: 60px;
+    }
+
+    .contactsection {
+        padding: 70px 0;
+    }
+
+    .contactsection .title {
+        font-size: 28px;
+    }
+
+    .contactsection__bg {
+        width: 70%;
+        top: -40px;
+    }
+
+    .continfo .location-title {
+        font-size: 16px;
+    }
+
+    .inputfield input {
+        min-height: 54px;
+    }
+
+    .contform .greenbtn {
+        width: 100%;
+    }
+
+    .ontdek__bg2 {
+        display: none;
+    }
+
+    .ontdek {
+        padding: 100px 0 256px;
+    }
+
+    .ontdek__bg1 {
+        bottom: initial;
+        top: 0;
+        width: 80%;
+    }
+
+    .ontdek .greenbtn {
+        border-radius: 30px 0;
+    }
+
+    .ontdek__ill1 {
+        width: 150px;
+        right: 12px;
+        max-width: initial;
+        bottom: -130px;
+    }
+
+
+    .ontdek__ill2 {
+        width: 160px;
+        left: 8px;
+    }
+
+    .featuressects,
+    .flexibel,
+    .herosection {
+        padding: 45px 0;
+    }
+
+    .continfo p,
+    .herosection__descr p,
+    .sdescrwrapper p {
+        font-size: 14px;
+    }
 }
