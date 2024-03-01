@@ -568,10 +568,15 @@
         padding-top: 15px;
         outline: none;
         resize: none;
+        transition: 0.3s;
 
         &::placeholder {
             font-size: 17px;
             color: #1C7C54;
+        }
+
+        &:focus {
+            background: #fff;
         }
     }
 }
