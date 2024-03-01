@@ -29,5 +29,14 @@ $(document).ready(function () {
         $('.header').removeClass('shadowh');
     }
 
+    // faq
+    $('.faqheader').click(function(){
+        $(this).toggleClass('rotate');
+        $(this).next('.faqbody').slideToggle();
+    });
+
+
+
+
 });
 
